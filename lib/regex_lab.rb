@@ -21,8 +21,8 @@ end
 
 def valid_phone_number?(phone)
   if phone.match(/\d{10}/)
-  return true 
+    return true 
   else 
-  false
+    false
   end 
 end
